@@ -61,8 +61,7 @@
     line-height: 135%;
 }
 
-.address__phone,
-.address__email {
+.address__item-link {
     text-underline-offset: 4px;
 }
 
