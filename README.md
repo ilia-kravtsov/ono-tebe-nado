@@ -1,3 +1,6 @@
+# Cсылка на репозиторий: 
+https://github.com/ilia-kravtsov/ono-tebe-nado.git
+
 # проект "Оно тебе надо"
 
 ### Pixel Perfect Скриншот
