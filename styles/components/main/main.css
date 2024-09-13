@@ -1,0 +1,8 @@
+@import url(cover.css);
+@import url(lots.css);
+@import url(about.css);
+
+.main {
+    display: flex;
+    flex-direction: column;
+}

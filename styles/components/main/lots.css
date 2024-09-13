@@ -1,0 +1,107 @@
+.lots {
+    padding: 179px 0 148px 0;
+}
+
+.lots__container {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.lots__container > .lots__heading {
+    margin-left: 40px;
+}
+
+.lots__heading {
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-large);
+    text-transform: uppercase;
+}
+
+.lots__card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 100%;
+    list-style-type: none;
+}
+
+.lots__card-list-item {
+    display: flex;
+    flex-grow: 1;
+    width: 334px;
+    min-height: 563px;
+}
+
+.card-link {
+    display: block;
+    text-decoration: none;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 49px 37px 48px 40px;
+    color: var(--font-auxiliary-color);
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: var(--layer-color);
+}
+
+.card_type_film::before {
+    background-image: url(../../../images/card-lot-01.jpg);
+}
+
+.card_type_book::before {
+    background-image: url(../../../images/card-lot-02.jpg);
+}
+
+.card_type_picture::before {
+    background-image: url(../../../images/card-lot-03.jpg);
+}
+
+.card__title {
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-big);
+    line-height: var(--line-height-huge);
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.card__text {
+    font-size: var(--font-size-middle);
+    line-height: var(--line-height-huge);
+}
+
+.lots__look-more-link {
+    display: inline-block;
+    margin: 3px 0 0 40px;
+    font-size: var(--font-size-middle);
+    text-underline-offset: 4px;
+}

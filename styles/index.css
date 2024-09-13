@@ -1,0 +1,5 @@
+@import url(global/variables.css);
+@import url(components/header.css);
+@import url(components/main/main.css);
+@import url(components/footer.css);
+@import url(global/scrollbar.css);

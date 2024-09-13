@@ -1,0 +1,25 @@
+:root {
+  /* colors */
+  --transparent: transparent;
+  --layer-color: rgba(0, 0, 0, 0.6);
+  --background-logo-color: #000;
+
+  /* fonts */
+  --font-main-color: #000;
+  --font-auxiliary-color: #fff;
+  --font-size-middle: 20px;
+  --font-size-big: 22px;
+  --font-size-large: 40px;
+  --font-size-enormous: 100px;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --letter-spacing-medium: 30px;
+  --letter-spacing-large: 60px;
+  --line-height-medium: 24px;
+  --line-height-big: 100%;
+  --line-height-bigger: 115%;
+  --line-height-huge: 120%;
+
+  --transform-scale: 0.97; 
+  --transition-button: transform .2s ease-in-out;
+}

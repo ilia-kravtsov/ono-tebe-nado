@@ -1,1 +1,20 @@
-/* место для вашего кода */
+@import url(index.css);
+
+.page {
+  color: var(--font-main-color);
+  font-family: Raleway, Arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.18px;
+}
+
+.container {
+  width: 100%;
+  padding: 0 24px;
+}
+
+
+
+
+
+
+
